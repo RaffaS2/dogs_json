@@ -1,24 +1,21 @@
-# ProjetoFinal_Dogs
+Web application that displays dog breeds with images, pagination, and a search bar.
 
-Aplicação web que mostra as raças de cães com imagens, paginação e barra de pesquisa.
+### Installation and Setup
 
-### Instalação e execução
-
-Instalar o JSON Server v0.17.4:  
+Install JSON Server v0.17.4:
 ```bash
 npm install -g json-server@0.17.4
 ```  
-Iniciar a base de dados:  
+Start database:  
 ```bash
 npx json-server --watch db.json --port 3000
 ```  
- Ligar o frontend:  
+Run frontend:  
 - Live Server → abre `index.html`  
 - Ou terminal:  
 ```bash
 npx serve .
 ```
 
-> Não abrir em `index.html` diretamente pelo `file://`.
-
+> Do not open`index.html` directly using `file://`.
 
