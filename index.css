@@ -1,0 +1,156 @@
+header {
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: space-between;
+    padding: 14px 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1);
+    z-index: 1; 
+
+  }
+  
+
+  #nav {
+    display: flex;
+    align-items: center;
+  }
+  
+  input {   
+    padding: 10px;
+    font-size: 14px;
+    border: none;
+    border-radius: 10px;
+    margin-right: 15px;
+    background-color: white;
+  }
+  
+  button {
+    padding: 10px 15px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 10px !important; 
+    font-size: 14px !important;
+    margin-left: 10px !important;
+    cursor: pointer !important;
+  }
+
+  button:hover {
+    background-color: rgb(41, 41, 41);
+  }
+
+  i.fa-paw{
+    margin-top: 8px;
+    font-size: 24px;
+    margin-left: 20px;
+    cursor: pointer;
+  }
+
+ .container{
+  position: relative;
+  right: 18px;
+  padding-top:  74px;
+ }
+
+ p{
+  font-size: 15 px;
+  font-family: sans-serif;
+  font-weight: bold;
+  position: relative;
+  left: 15px;
+  top: 10px;
+
+ }
+ .card-img-top {
+  width: 100%;
+  aspect-ratio: 4/3; 
+  object-fit: cover;
+  object-position: top center;
+}
+
+.card {
+  margin: 15px;
+  width: 100%;
+  padding-bottom: 15px;
+  box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1);
+}
+
+i.fa-download{
+   display: flex;
+   justify-content: end;
+   margin-right: 15px;
+   margin-bottom: 10px;
+   cursor: pointer;
+}
+
+.pagination{
+  
+  display: flex;
+  justify-content: center ;
+  padding: 0;
+  margin-right: 40px;
+  font-family: sans-serif;
+  text-align: center;
+
+}
+
+
+ul {
+  
+  transform: translate (-50%, -50%);
+  display: flex;
+  margin: 0;
+  padding: 0;
+
+}
+
+ul li {
+  
+  list-style: none;
+  
+}
+
+ul li a {
+  
+  color: rgb(95, 93, 93);
+  display: block;
+  width: 40px;
+  height: 40px;
+  font-size: 20px;
+  text-align: center;
+  line-height: 40px;
+  background: #f2f2f2;;
+  text-decoration: none;
+  margin: 5px;
+  border-radius: 4px ;
+  box-shadow: inset 0 5px 10px rgba(0,0,0,.1), 0 2px 5px rgba(0,0,0,.5);
+}
+
+ul li a.active,
+ul li a:hover{
+  color: #0a0a0a;
+}
+
+i.fa-shield-dog{
+  display: flex;
+  justify-content: center;
+  font-size: 100px;
+}
+
+
+.p-error{
+  margin-top: 40px;
+  margin-right: 20px;
+  text-align: center;
+  font-size: 22px;
+}
+
+.p-error2{
+  margin-right: 30px;
+  font-size: 22px;
+  text-align: center;
+
+}
